@@ -21,8 +21,7 @@ const InsertTemplateInTheChat = (template) => {
 };
 
 const getWatsonMessageAndInsertTemplate = async (text = '') => {
-  // const uri = 'http://35.199.76.234/conversation/';
-  // const uri = 'http://192.168.160.102/conversation/';
+
   const uri = 'http://localhost/conversation/';
 
   const response = await (await fetch(uri, {
